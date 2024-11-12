@@ -1,0 +1,165 @@
+body
+{
+	margin-top:0;
+	margin-left:0;
+	margin-right:0;
+	margin-bottom:0;
+}
+
+.logo
+{
+	height:100px;
+	width:175px;
+}
+.logo img
+{
+
+	width:auto;
+	height:100px;
+}
+
+
+
+.menu
+{
+	height:35px;
+	width:auto;
+	background-color:#fe036a;
+	text-align:center;
+		
+}
+.menu ul
+{
+	display:inline-flex;
+	list-style:none;
+	
+}
+
+.menu ul li
+{
+
+margin-top:-10px;
+padding-left:25px;
+padding-right:25px;
+}
+
+.menu ul li a
+{
+	font-family: Trebuchet MS;
+	text-decoration:none;
+	color:black;
+}
+
+.menu ul li:hover
+{
+	background:gray;
+	border-radius:10px;	
+}
+
+.image
+{
+	background:gray;
+	height:650px;
+	width:1263px;
+}
+.image img
+{
+	height:650px;
+	width:auto;	
+}
+
+.Gallery-Container {
+	width:1263px;
+	height:1000px;
+}
+
+.Gallery-Title
+{
+	height:45px;
+	width:auto;
+	background-color:#f1f1f1;
+	text-align:center;
+	margin-top:30px;
+	
+}
+
+.Gallery-Title a
+{
+	font-family: Trebuchet MS;
+	font-size:25px;
+	text-decoration:none;
+	margin-top:10px;
+	color:#fe036a;
+	border:5px solid #fe036a;
+	padding:0 10px 0 10px;
+	
+}
+
+div.gallery {
+  float: left;
+  width: 350px;
+  height: 250px;
+  margin:30px;
+}
+
+
+div.gallery img {
+  width: 375px;
+  height: 275px;
+}
+
+
+.contact
+{
+	width:1263px;
+	height:150px;
+	background:#f1f1f1;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	margin-bottom:-15px;
+	
+}
+
+.contact-info
+{
+	display:flex;
+	width:100%;
+	max-width:1200px;
+	align-items:center;
+	justify-content:center;
+	padding: 0 20px;
+	font-family: Garamond, serif;
+
+}
+.card
+{
+	
+	padding:0 30px;
+	margin:0 20px;
+	width:250;
+	height:150px;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+	border-radius:1%;
+}
+.card-icon{
+	font-size:28px;
+	background:#ff6348;
+	width:60px;
+	height:60px;
+	
+	text-align:center;
+	line-height:60px !important;
+	border-radius:50%;
+	transition:0.3s linear;
+}
+.CopyRight
+{
+	height:30px;
+	width:1263px;
+	background:gray;
+
+}

@@ -1,0 +1,109 @@
+<html>
+
+<head>
+<title>Lavish | Fashion</title>
+<link rel="icon" href="log.png">
+<link rel="stylesheet" href="Style.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+<div class="logo">
+<img src="Logo.png">
+</div>
+
+<div class="menu">
+<ul>
+<li><a href="#">Home</a></li>
+<li><a href="#">Collection</a></li>
+<li><a href="#">Materials</a></li>
+<li><a href="#">Customize Online</a></li>
+<li><a href="#">Contact Us</a></li>
+<li><a href="#">About</a></li>
+</ul>
+</div>
+
+<div class="image"><center>
+<img class="mySlides" src="img.png">
+<img class="mySlides" src="img2.png">
+<img class="mySlides" src="img.png">
+<img class="mySlides" src="img2.png">
+</div>
+
+<script>
+var slideIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > x.length) {slideIndex = 1}
+  x[slideIndex-1].style.display = "block";
+  setTimeout(carousel, 1500);
+}
+</script>
+
+<div class="Gallery-Container">
+<div class="Gallery-Title">
+<a href="#">Collections</a>
+</div>
+<div class="Gallery-Imgaes">
+<div class="gallery">
+    <img src="">
+</div>
+
+
+<div class="gallery">
+    <img src="">
+</div>
+
+<div class="gallery">
+    <img src="">
+</div>
+
+<div class="gallery">
+    <img src="">
+</div>
+<div class="gallery">
+    <img src="">
+</div>
+
+<div class="gallery">
+    <img src="">
+</div>
+
+<div class="gallery">
+    <img src="">
+</div>
+
+<div class="gallery">
+    <img src="">
+</div>
+<div class="gallery">
+    <img src="">
+</div>
+</div>
+</div>
+
+<div class="contact">
+<div class="contact-info">
+<div class="card">
+<i class="card-icon fa fa-envelope"></i></i>
+<p>vijayaboutique@gmail.com</p>
+</div>
+<div class="card">
+<i class="card-icon fa fa-phone"></i>
+<p>+91 9876543210</p>
+</div>
+<div class="card">
+<i class="card-icon fa fa-map-marker"></i>
+<p>Naidupet</p>
+</div></div></div>
+<div class="CopyRight">
+</div>
+</body>
+</html>
